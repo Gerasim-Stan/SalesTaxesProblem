@@ -27,27 +27,27 @@ class TestProduct(unittest.TestCase):
 
     def test_scenario_1_tax(self):
         self.assertEqual(self.scenario1_products.taxesSum(),
-                         "Sales Taxes: " + "1.50")
+                         "Sales Taxes: 1.50")
 
     def test_scenario_1_result(self):
         self.assertEqual(self.scenario1_products.result(),
-                         "Total: " + "29.83")
+                         "Total: 29.83")
 
     def test_scenario_2_tax(self):
         self.assertEqual(self.scenario2_products.taxesSum(),
-                         "Sales Taxes: " + "7.65")
+                         "Sales Taxes: 7.65")
 
     def test_scenario_2_result(self):
         self.assertEqual(self.scenario2_products.result(),
-                         "Total: " + "65.15")
+                         "Total: 65.15")
 
     def test_scenario_3_tax(self):
         self.assertEqual(self.scenario3_products.taxesSum(),
-                         "Sales Taxes: " + "6.70")
+                         "Sales Taxes: 6.70")
 
     def test_scenario_3_result(self):
         self.assertEqual(self.scenario3_products.result(),
-                         "Total: " + "74.68")
+                         "Total: 74.68")
 
 
 if __name__ == '__main__':
